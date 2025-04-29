@@ -61,7 +61,7 @@ pipeline {
                             }
                         }
 
-                        stage('Deploy to TESTE_VADER') {
+                        stage('Deploy on VADER') {
                             agent { node { label 'TESTE_VADER' } }
                             steps {
                                 unstash 'build'
