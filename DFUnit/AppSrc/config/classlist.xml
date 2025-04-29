@@ -1,14 +1,7 @@
 <?xml version="1.0"?>
 <classList xmlns="http://www.dataaccess.com/VisualDataFlex/2006/classlist/">
 	<VDFLibraryTimeStamp>2024-10-09T02:59:05</VDFLibraryTimeStamp>
-	<DFLibraryVersion>1</DFLibraryVersion>
-	<libraries>
-		<library>
-			<libraryPath>..\DFUnit\DFUnit-20.1.sws</libraryPath>
-			<libraryTimeStamp>2025-04-29T14:01:40</libraryTimeStamp>
-			<libraryID>Lib1</libraryID>
-		</library>
-	</libraries>
+	<DFLibraryVersion>1</DFLibraryVersion><libraries></libraries>
 	<classes>
 		<class>
 			<className>cWebButton</className>
@@ -95,6 +88,20 @@
 			<libraryID>0</libraryID>
 		</class>
 		<class>
+			<className>cWebColumnTags</className>
+			<image>cWebColumnTags.ico</image>
+			<package>cWebColumnTags.pkg</package>
+			<groupName>Web Lists &amp;&amp; Grids</groupName>
+			<libraryID>0</libraryID>
+		</class>
+		<class>
+			<className>cWebColumnSelectionIndicator</className>
+			<image>cWebColumnSelectionIndicator.ico</image>
+			<package>cWebColumnSelectionIndicator.pkg</package>
+			<groupName>Web Lists &amp;&amp; Grids</groupName>
+			<libraryID>0</libraryID>
+		</class>
+		<class>
 			<className>cWebCombo</className>
 			<image>cWebCombo.ico</image>
 			<package>cWebCombo.pkg</package>
@@ -144,6 +151,13 @@
 			<libraryID>0</libraryID>
 		</class>
 		<class>
+			<className>cWebDrawing</className>
+			<image>cWebDrawing.ico</image>
+			<package>cWebDrawing.pkg</package>
+			<groupName>Web Controls</groupName>
+			<libraryID>0</libraryID>
+		</class>
+		<class>
 			<className>cWebEdit</className>
 			<image>cWebEdit.ico</image>
 			<package>cWebEdit.pkg</package>
@@ -182,6 +196,13 @@
 			<className>cWebGrid</className>
 			<image>cWebGrid.ico</image>
 			<package>cWebGrid.pkg</package>
+			<groupName>Web Lists &amp;&amp; Grids</groupName>
+			<libraryID>0</libraryID>
+		</class>
+		<class>
+			<className>cWebMultiSelectList</className>
+			<image>cWebMultiSelectList.ico</image>
+			<package>cWebMultiSelectList.pkg</package>
 			<groupName>Web Lists &amp;&amp; Grids</groupName>
 			<libraryID>0</libraryID>
 		</class>
@@ -634,6 +655,20 @@
 			<libraryID>0</libraryID>
 		</class>
 		<class>
+			<className>cLocalWebAppHost</className>
+			<image>cLocalWebAppHost.ico</image>
+			<package>cLocalWebAppHost.pkg</package>
+			<groupName>Base Containers</groupName>
+			<libraryID>0</libraryID>
+		</class>
+		<class>
+			<className>cLocalWebControlHost</className>
+			<image>cLocalWebControlHost.ico</image>
+			<package>cLocalWebControlHost.pkg</package>
+			<groupName>Base Containers</groupName>
+			<libraryID>0</libraryID>
+		</class>
+		<class>
 			<className>Container3D</className>
 			<image>ControlContainer3D.ico</image>
 			<package>Windows.pkg</package>
@@ -799,6 +834,13 @@
 			<image>ControldbTrackbar.ico</image>
 			<package>dbTrckBr.pkg</package>
 			<groupName>Data Controls</groupName>
+			<libraryID>0</libraryID>
+		</class>
+		<class>
+			<className>cDbLocalWebControlHost</className>
+			<image>cDbLocalWebControlHost.ico</image>
+			<package>cDbLocalWebControlHost.pkg</package>
+			<groupName>Data Containers</groupName>
 			<libraryID>0</libraryID>
 		</class>
 		<class>
@@ -1072,55 +1114,6 @@
 			<image>ControlCJToolbar.ico</image>
 			<package>cCJCommandBarSystem.pkg</package>
 			<groupName>Menus and Toolbars</groupName>
-			<libraryID>0</libraryID>
-		</class>
-		<class>
-			<className>cWebColumnTags</className>
-			<image>cWebColumnTags.ico</image>
-			<package>cWebColumnTags.pkg</package>
-			<groupName>Web Lists &amp;&amp; Grids</groupName>
-			<libraryID>0</libraryID>
-		</class>
-		<class>
-			<className>cWebColumnSelectionIndicator</className>
-			<image>cWebColumnSelectionIndicator.ico</image>
-			<package>cWebColumnSelectionIndicator.pkg</package>
-			<groupName>Web Lists &amp;&amp; Grids</groupName>
-			<libraryID>0</libraryID>
-		</class>
-		<class>
-			<className>cWebDrawing</className>
-			<image>cWebDrawing.ico</image>
-			<package>cWebDrawing.pkg</package>
-			<groupName>Web Controls</groupName>
-			<libraryID>0</libraryID>
-		</class>
-		<class>
-			<className>cWebMultiSelectList</className>
-			<image>cWebMultiSelectList.ico</image>
-			<package>cWebMultiSelectList.pkg</package>
-			<groupName>Web Lists &amp;&amp; Grids</groupName>
-			<libraryID>0</libraryID>
-		</class>
-		<class>
-			<className>cLocalWebAppHost</className>
-			<image>cLocalWebAppHost.ico</image>
-			<package>cLocalWebAppHost.pkg</package>
-			<groupName>Base Containers</groupName>
-			<libraryID>0</libraryID>
-		</class>
-		<class>
-			<className>cLocalWebControlHost</className>
-			<image>cLocalWebControlHost.ico</image>
-			<package>cLocalWebControlHost.pkg</package>
-			<groupName>Base Containers</groupName>
-			<libraryID>0</libraryID>
-		</class>
-		<class>
-			<className>cDbLocalWebControlHost</className>
-			<image>cDbLocalWebControlHost.ico</image>
-			<package>cDbLocalWebControlHost.pkg</package>
-			<groupName>Data Containers</groupName>
 			<libraryID>0</libraryID>
 		</class>
 	</classes>
