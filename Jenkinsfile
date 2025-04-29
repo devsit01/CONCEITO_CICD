@@ -49,8 +49,10 @@ pipeline {
                         }
                         stage('Archive') {
                             steps {
-                                unstash 'build'
-                                bat "tar acvf Build.zip \"${WORKSPACE_OUTPUT}\\*.exe\" \"${WORKSPACE_OUTPUT}\\*.ws\""
+                                script {
+                                    unstash 'build'
+                                    bat "tar acvf Build.zip \"${WORKSPACE_OUTPUT}\\*.exe\" \"${WORKSPACE_OUTPUT}\\*.ws\""
+                                }
                             }
                             post {
                                 always {
