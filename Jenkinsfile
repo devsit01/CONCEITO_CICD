@@ -60,6 +60,18 @@ pipeline {
                                 }
                             }
                         }
+
+                        stage('Deploy to TESTE_VADER') {
+                            agent { node { label 'TESTE_VADER' } }
+                            steps {
+                                unstash 'build'
+                                bat """
+                                    if not exist E:\\Teste mkdir E:\\Teste
+                                    copy /Y "${WORKSPACE_OUTPUT}\\*.exe" E:\\Teste\\
+                                    copy /Y "${WORKSPACE_OUTPUT}\\*.ws" E:\\Teste\\
+                                """
+                            }
+                        }
                     }
                 }
             }
